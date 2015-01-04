@@ -29,6 +29,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendMessageInfo(sender: UIButton) {
+        //Adding a Comment to test commits
         labelDisplay.hidden = false
         labelDisplay.text = enterMessageDisplay.text
         labelDisplay.textColor = UIColor.redColor()
